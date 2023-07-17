@@ -1,4 +1,4 @@
-baseURL = 'https://teoivancevic.github.io/'
+baseURL = 'https://teoivancevic.github.io'
 languageCode = 'en-us'
-title = 'Teo Ivancevic'
+title = 'Teo Ivencevic'
 theme = 'PaperMod'
