@@ -1,0 +1,13 @@
+baseURL: 'https://teoivancevic.github.io'
+languageCode: 'en-us'
+title: 'Teo Ivancevic'
+theme: 'PaperMod'
+params:
+    homeInfoParams:
+        Title: Teo Ivancevic
+        Content: Hello, I'm Teo Ivancevic...
+    socialIcons: # optional
+        - name: github
+          url: "https://github.com/teoivancevic"
+        - name: linkedin
+          url: "https://www.linkedin.com/in/teo-ivan%C4%8Devi%C4%87-b5803a221/"
