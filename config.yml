@@ -5,10 +5,14 @@ theme: "PaperMod"
 
 menu:
   main:
+    - name: Home
+      url: /
     - name: About
       url: about
     - name: Now
       url: now
+    - name: Contact
+      url: contact
 
 params:
   profileMode:
