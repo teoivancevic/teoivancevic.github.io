@@ -25,8 +25,8 @@ params:
     subtitle: "Hello, I'm Teo Ivančević..."
     imageUrl: "https://media.licdn.com/dms/image/D4D03AQHebUKPs7uumw/profile-displayphoto-shrink_800_800/0/1695770073101?e=1710374400&v=beta&t=AgXdk8PsubKzJPIRCQSkEjYewJpIcMKK_dYsTvjsJZ8" # optional
     imageTitle: "Teo Ivančević" # optional
-    imageWidth: 160 # custom size
-    imageHeight: 160 # custom size
+    imageWidth: 200 # custom size
+    imageHeight: 200 # custom size
     # buttons:
     #   - name: Now
     #     url: "/now"
