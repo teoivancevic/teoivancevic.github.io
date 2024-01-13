@@ -3,4 +3,10 @@ title: "Now"
 url: "/now/"
 ---
 
-What I'm doing now
+In Zagreb, second year of my Bachelor degree in Computer Science at FER.
+
+
+---
+
+[What is a “now” page?](https://nownownow.com/about)
+
