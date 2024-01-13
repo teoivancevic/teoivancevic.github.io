@@ -13,12 +13,12 @@ menu:
 params:
   profileMode:
     enabled: true
-    title: "<Title>" # optional default will be site title
-    subtitle: "This is subtitle"
+    title: "Teo Ivancevic" # optional default will be site title
+    subtitle: "Hello, I'm Teo Ivancevic..."
     imageUrl: "https://media.licdn.com/dms/image/D4D03AQHebUKPs7uumw/profile-displayphoto-shrink_800_800/0/1695770073101?e=1710374400&v=beta&t=AgXdk8PsubKzJPIRCQSkEjYewJpIcMKK_dYsTvjsJZ8" # optional
     imageTitle: "Teo Ivancevic" # optional
-    imageWidth: 120 # custom size
-    imageHeight: 120 # custom size
+    imageWidth: 140 # custom size
+    imageHeight: 140 # custom size
     buttons:
       - name: Now
         url: "/now"
