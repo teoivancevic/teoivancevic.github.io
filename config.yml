@@ -1,31 +1,42 @@
-baseURL: 'https://teoivancevic.github.io'
-languageCode: 'en-us'
-title: 'Teo Ivancevic'
-theme: 'PaperMod'
-
+baseURL: "https://teoivancevic.github.io"
+languageCode: "en-us"
+title: "Teo Ivancevic"
+theme: "PaperMod"
 
 menu:
-    main:
-        - name: About
-          url: about
-        - name: Now
-          url: now
-
+  main:
+    - name: About
+      url: about
+    - name: Now
+      url: now
 
 params:
-    homeInfoParams:
-        Title: Teo Ivancevic
-        Content: Hello, I'm Teo Ivancevic...
-    
-    assets:
-        favicon: "/favicon.ico"
-        favicon16x16:  "/favicon-16x16.png"
-        favicon32x32:  "/favicon-32x32.png"
-        apple_touch_icon:  "/apple-touch-icon.png"
-        safari_pinned_tab:  "/safari-pinned-tab.svg"
+  profileMode:
+    enabled: true
+    title: "<Title>" # optional default will be site title
+    subtitle: "This is subtitle"
+    imageUrl: "https://media.licdn.com/dms/image/D4D03AQHebUKPs7uumw/profile-displayphoto-shrink_800_800/0/1695770073101?e=1710374400&v=beta&t=AgXdk8PsubKzJPIRCQSkEjYewJpIcMKK_dYsTvjsJZ8" # optional
+    imageTitle: "Teo Ivancevic" # optional
+    imageWidth: 120 # custom size
+    imageHeight: 120 # custom size
+    buttons:
+      - name: Now
+        url: "/now"
+      - name: Github
+        url: "https://github.com/teoivancevic"
+  # homeInfoParams:
+  #     Title: Teo Ivancevic
+  #     Content: Hello, I'm Teo Ivancevic...
 
-    socialIcons: # optional
-        - name: github
-          url: "https://github.com/teoivancevic"
-        - name: linkedin
-          url: "https://www.linkedin.com/in/teo-ivan%C4%8Devi%C4%87-b5803a221/"
+  assets:
+    favicon: "/favicon.ico"
+    favicon16x16: "/favicon-16x16.png"
+    favicon32x32: "/favicon-32x32.png"
+    apple_touch_icon: "/apple-touch-icon.png"
+    safari_pinned_tab: "/safari-pinned-tab.svg"
+
+  socialIcons: # optional
+    - name: github
+      url: "https://github.com/teoivancevic"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/teoivancevic/"
