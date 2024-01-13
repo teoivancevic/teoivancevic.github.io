@@ -27,11 +27,11 @@ params:
     imageTitle: "Teo Ivančević" # optional
     imageWidth: 140 # custom size
     imageHeight: 140 # custom size
-    buttons:
-      - name: Now
-        url: "/now"
-      - name: Github
-        url: "https://github.com/teoivancevic"
+    # buttons:
+    #   - name: Now
+    #     url: "/now"
+    #   - name: Github
+    #     url: "https://github.com/teoivancevic"
   # homeInfoParams:
   #     Title: Teo Ivancevic
   #     Content: Hello, I'm Teo Ivancevic...
