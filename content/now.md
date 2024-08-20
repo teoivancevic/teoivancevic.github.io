@@ -3,7 +3,7 @@ title: "Now"
 url: "/now/"
 ---
 
-In Zagreb, second year of my Bachelor degree in Computer Science at FER.
+In Zagreb, third year of my Bachelor degree in Computer Science at FER.
 
 
 ---

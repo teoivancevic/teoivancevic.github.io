@@ -8,22 +8,25 @@ menu:
     - name: Home
       url: /
       weight: 1
-    - name: About
-      url: about
-      weight: 2
+    # - name: About
+    #   url: about
+    #   weight: 2
     - name: Now
       url: now
       weight: 3
+    - name: Blog
+      url: https://teoivancevic.substack.com
+      weight: 4
     - name: Contact
       url: contact
-      weight: 4
+      weight: 5
 
 params:
   profileMode:
     enabled: true
-    title: "Teo Ivančević" # optional default will be site title
-    subtitle: "Hello, I'm Teo Ivančević..."
-    imageUrl: "https://media.licdn.com/dms/image/D4D03AQHebUKPs7uumw/profile-displayphoto-shrink_800_800/0/1695770073101?e=1710374400&v=beta&t=AgXdk8PsubKzJPIRCQSkEjYewJpIcMKK_dYsTvjsJZ8" # optional
+    title: "Welcome! " # optional default will be site title
+    subtitle: "I'm **Teo Ivančević**, third year CS student at FER in **Zagreb, Croatia.**"
+    imageUrl: "/profile pix.jpeg"
     imageTitle: "Teo Ivančević" # optional
     imageWidth: 200 # custom size
     imageHeight: 200 # custom size
@@ -36,6 +39,11 @@ params:
   #     Title: Teo Ivancevic
   #     Content: Hello, I'm Teo Ivancevic...
 
+  homeInfoParams:
+    enabled: false
+    title: TEO TITLE
+    imageUrl: "/profile pix.jpeg"
+
   assets:
     favicon: "/favicon.ico"
     favicon16x16: "/favicon-16x16.png"
@@ -44,7 +52,8 @@ params:
     safari_pinned_tab: "/safari-pinned-tab.svg"
 
   socialIcons: # optional
-    - name: github
-      url: "https://github.com/teoivancevic"
     - name: linkedin
       url: "https://www.linkedin.com/in/teoivancevic/"
+    - name: github
+      url: "https://github.com/teoivancevic"
+    
