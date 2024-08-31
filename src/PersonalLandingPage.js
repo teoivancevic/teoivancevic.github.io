@@ -42,7 +42,7 @@ const PersonalLandingPage = () => {
           <section className="mb-6">
             {/* <h2 className="text-lg font-semibold mb-2 text-[#666666]">About Me</h2> */}
             <p className="text-[#666666]">
-              I love Startups, Art, Technology, Robotics, Business...
+              I love Startups, Technology, Music, Business, Robotics...
               <br/><br/>
               Currently, I'm studying CS at <a href='https://www.fer.unizg.hr/en' className='underline'>FER</a> in <strong>Zagreb, Croatia</strong>. I am working on starting an Entrepreneurship Club at my uni to "Inspire the new generation of Croatian leaders".
               <br/><br/>
