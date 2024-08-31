@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Linkedin, Mail } from 'lucide-react';
+import { Linkedin } from 'lucide-react';
 
 const PersonalLandingPage = () => {
     const [email, setEmail] = useState('');
