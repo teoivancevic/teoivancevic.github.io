@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { CalendarCheck, Linkedin, Rss } from 'lucide-react';
+import { Link } from 'react-router-dom';
+import { CalendarCheck, Linkedin, Rss, Wrench } from 'lucide-react';
 
 
 const PersonalLandingPage = () => {
@@ -47,8 +48,7 @@ const PersonalLandingPage = () => {
               Currently, I'm studying CS at <a href='https://www.fer.unizg.hr/en' className='underline'>FER</a> in <strong>Zagreb, Croatia</strong>. 
               {/* I am working on starting an Entrepreneurship Club at my uni to "Inspire the new generation of Croatian leaders". */}
               <br/><br/>
-              Recently, I've spent 2 months at <a href='https://www.stanford.edu/' className='font-bold hover:text-[#8C1515]'>Stanford University</a> as a visiting student for the summer. While studying Technology Entrepreneurship and Data Science I've made a lot of cool friends from all around the world. 
-              
+              Last summer I've spent 2 months at <a href='https://www.stanford.edu/' className='font-bold hover:text-[#8C1515]'>Stanford University</a> as a visiting student which was really an incredible experience. While studying Tech Entrepreneurship and Data Science I've made a lot of cool friends from all around the world and it's been awesome following what they're up to :D              
               {/* Some of my favorite songs lately:
               <ol className="text-[#666666] list-decimal pl-10">
                 <li><a href='https://www.youtube.com/watch?v=e-IAGmTuUmw' className='underline'>The Glory</a> by Ye</li>
@@ -119,6 +119,9 @@ const PersonalLandingPage = () => {
               {/* <a href="mailto:hey@teoivancevic.com" aria-label="Email">
                 <Mail className="text-[#666666] hover:text-[#444444]" size={20} />
               </a> */}
+              <Link to="/gear" aria-label="Gear" className="text-[#888888] hover:text-green-400 transition-colors">
+                <Wrench size={20} />
+              </Link>
               <a href="https://cal.com/teoivancevic" target="_blank" rel="noopener noreferrer" aria-label="Cal.com Meeting">
                 <CalendarCheck className="text-[#888888] hover:text-[#9834eb]" size={20} />
               </a>
